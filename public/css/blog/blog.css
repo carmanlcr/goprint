@@ -1,0 +1,33 @@
+.blog{
+	display:inline-block;
+	padding: 4.5px;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #e2e0e0;
+	border-radius: 4px;
+	min-height: 500px;
+	max-height: 500px;
+	position: relative;
+}
+
+.blog h3{
+	padding-top: 13px;
+}
+
+.blog p{
+	padding: 6px;
+}
+
+.editor{
+	font-size: 16px;
+	color: #4CB752;
+}
+
+.nombre-editor{
+	font-size: 13px;
+}
+
+.blog img{
+	max-height: 250px;
+	width: 1000px;
+}

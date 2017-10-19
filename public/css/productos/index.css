@@ -1,0 +1,65 @@
+.pm-containerPadding-bottom-40 {
+    padding-bottom: 40px;
+}
+
+.pm-containerPadding-top-40 {
+    padding-top: 40px;
+}
+
+#carrusel{
+	float:left; 
+	width:100%; 
+	overflow:hidden; 
+	height:305px; 
+	position:relative; 
+	margin-top:20px;
+}
+
+#carrusel .izquierda_flecha{
+	position:absolute; 
+	left:10px; 
+	z-index:1; 
+	top:50%; 
+	margin-top:-9px;
+}
+
+#carrusel .derecha_flecha{
+	position:absolute; 
+	right:10px; 
+	z-index:1; 
+	top:50%; 
+	margin-top:-9px;
+}
+
+.carrusel {
+    width: 4000px;
+    left: 0px;
+    position: absolute;
+    z-index: 0;
+}
+.carrusel>div{
+    float: left;
+    height: 203px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+
+.carrusel .img_carrusel{
+	cursor:pointer;
+}
+
+.product {
+    border: #CCCCCC 1px solid;
+    min-height: 350px;
+    max-height: 350px;
+    min-width: 360px;
+    max-width: 360px;
+}
+
+.img-product{
+	min-height: 240px;
+	max-height: 240px;
+	min-width: 200px;
+    max-width: 240px;
+}

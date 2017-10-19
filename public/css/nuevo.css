@@ -1,0 +1,223 @@
+h2 {
+    text-align: center;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+
+
+.pm-page-title {
+    text-align: center;
+}
+
+
+#mostrarmodal {
+background-image: url(img/img1.jpg);
+}
+
+
+#carrusel{float:left; width:100%; overflow:hidden; height:205px; position:relative; margin-top:20px;}
+#carrusel .izquierda_flecha{position:absolute; left:10px; z-index:1; top:50%; margin-top:-9px;}
+#carrusel .derecha_flecha{position:absolute; right:10px; z-index:1; top:50%; margin-top:-9px;}
+.carrusel{width:4000px;left:0px; position:absolute; z-index:0}
+.carrusel>div{
+    float: left;
+    height: 203px;
+    margin-right: 5px;
+    width: 195%;
+    text-align:center;
+}
+.carrusel .img_carrusel{cursor:pointer;}
+
+#content {
+    float:left;
+    width:600px;
+    margin-bottom:40px;
+    margin:0px auto;
+}
+
+.product {
+    border:#CCCCCC 1px solid;
+}
+
+
+
+
+.col-xs-6{
+padding-left: 2px;
+     
+}
+
+
+.col-lg-12{
+vertical-align: center;
+}
+
+
+
+.pm-sub-header-info {
+    background-image: none;
+}
+
+
+
+
+.btn-danger {
+    margin-top: 5px;
+    padding: 5px;
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+
+
+.overlay{
+    
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:2;
+}
+
+.box{
+    position:fixed;
+    top:-200px;
+    left:30%;
+    right:30%;
+    background-color:#fff;
+    color:#7F7F7F;
+    padding:20px;
+    border:2px solid #ccc;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    -moz-box-shadow: 0 1px 5px #333;
+    -webkit-box-shadow: 0 1px 5px #333;
+    z-index:3;
+}
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    display: flex;
+    
+    animation: modal 2s 3s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.contenido {
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background: white;
+    border-radius: 10px;
+}
+
+#cerrar {
+    display: none;
+}
+
+#cerrar + label {
+    position: fixed;
+    color: #fff;
+    font-size: 25px;
+    z-index: 50;
+    background: darkred;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    right: 150px;
+    top: 150px;
+    cursor: pointer;
+    
+    animation: modal 2s 3s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#cerrar:checked + label, #cerrar:checked ~ .modal {
+    display: none;
+}
+
+@keyframes modal {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+#slidebox{position:relative; border:1px solid #ccc; margin:40px auto;overflow:hidden;}
+#slidebox, #slidebox ul {width:600px;height:300px;}
+#slidebox, #slidebox ul li{width:600px;height:300px;}
+#slidebox ul li{position:relative; left:0; background:#eee; float:left;list-style: none; padding:15px 28px;  font-family:Verdana, Geneva, sans-serif; font-size:13px;}
+#slidebox .next, #slidebox .previous{position:absolute; z-index:2; display:block; width:21px; height:21px;top:139px;}
+#slidebox .next{right:0; margin-right:10px; background:url(slidebox_next.png) no-repeat left top;}
+#slidebox .next:hover{background:url(slidebox_next_hover.png) no-repeat left top;}
+#slidebox .previous{margin-left:10px; background:url(slidebox_previous.png) no-repeat left top;}
+#slidebox .previous:hover{background:url(slidebox_previous_hover.png) no-repeat left top;}
+#slidebox .thumbs{position:absolute; z-index:2; bottom:10px; right:10px;}
+#slidebox .thumbs a{display:block; margin-left:5px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:9px; text-decoration:none; padding:2px 4px; background:url(slidebox_thumb.png); color:#fff;}
+#slidebox .thumbs a:hover{background:#fff; color:#000;}
+#slidebox .thumbs .thumbActive{background:#fff; color:#000; display:block; margin-left:5px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:9px; text-decoration:none; padding:2px 4px;}
+
+#inner{
+    align: right;
+}
+.btn-danger {
+    margin: 2px;
+}
+#formi label {
+    font-family: Arial;
+    font-size: 20px;
+    color: red;
+}
+.opti {
+    color: red;
+    font-size: 30px;
+}
+
+.table-responsive .table-bordered {
+    width: 100%;
+    margin: 0 auto;
+}
+
+tr{
+    padding: 5px;
+    margin: 10px;
+}
+
+#batsi td {
+    padding: 10px;
+    margin: 10px;
+}
+
+.kal {
+    width: 100;
+    margin: 0 auto;
+}
+
+.table-responsive th {
+    text-align: center;
+}
+.orochi {
+    font-size: 25px;
+    color: red;
+}
+
