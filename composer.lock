@@ -727,7 +727,7 @@
                 "symfony/console": "~3.2",
                 "symfony/debug": "~3.2",
                 "symfony/finder": "~3.2",
-                "symfony/http-foundation": "~3.2",
+                "symfony/http-foundation": "3.4.35",
                 "symfony/http-kernel": "~3.2",
                 "symfony/process": "~3.2",
                 "symfony/routing": "~3.2",
@@ -2173,7 +2173,7 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.2.7",
+            "version": "v3.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -2243,7 +2243,7 @@
                 "psr/log": "~1.0",
                 "symfony/debug": "~2.8|~3.0",
                 "symfony/event-dispatcher": "~2.8|~3.0",
-                "symfony/http-foundation": "~2.8.13|~3.1.6|~3.2"
+                "symfony/http-foundation": "~2.8.13|~3.1.6|~3.2|~3.4.35"
             },
             "conflict": {
                 "symfony/config": "<2.8"
